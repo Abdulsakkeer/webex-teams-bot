@@ -1,0 +1,32 @@
+Hello,"Hello, how can I help you ?"
+What is CUCM,"Cisco Unified Communications (UC) is an IP-based communications system integrating voice, video, data, and mobility products and applications. It enables more effective, secure communications and can transform the way in which we communicate.
+
+CUCM extends enterprise telephony features and functions to packet telephony network devices. These packet telephony network devices include Cisco IP Phones, media-processing devices, VoIP gateways, and multimedia applications. Additional data, voice, and video services, such as converged messaging, multimedia conferencing, collaborative contact centers, and interactive multimedia response systems, interact with the IP telephony solution through the CUCM application programming interface (API)."
+CUCM Integration with CUC,"Please refer the below link.
+
+https://edsonvuma.wordpress.com/2015/12/17/integration-of-cucm-with-cuc/"
+H.323 Voice gateway configuration with cucm,"Please refer the below link.
+
+This document explains how to configure the H.323 PRI and Gateway integration with the Cisco Unified Communications Manager (CUCM)10.x
+
+https://community.cisco.com/t5/collaboration-voice-and-video/how-to-configure-h-323-pri-and-gateway-on-cucm-10-x/ta-p/3139633"
+What are the Media Resources,"Media resources are: ANN, MTP, CONF Bridge, MOH , trascoder and voice termination"
+what is MGCP gateway,"The Media Gateway Control Protocol (MGCP) is a signaling and call control communications protocol used in voice over IP (VoIP) telecommunication systems.
+MGCP uses the Session Description Protocol (SDP) for specifying and negotiating the media streams to be transmitted in a call session and the Real-time Transport Protocol (RTP) for framing of the media streams.
+
+Refer Below Link:
+
+https://community.cisco.com/t5/collaboration-voice-and-video/mgcp-gateway-integration-with-cucm-and-pstn-service-provider/ta-p/3116588"
+what is voice gateway,"A voice gateway is one of the most important components within a voice over IP infrastructure. The voice gateway is used to connect the enterprise VoIP network with the telecommunications provider, using a number of different connectivity methods, such as PSTN, ISDN and SIP"
+what is FXS and FXO,"Foreign Exchange Office (FXO) Analog trunks that connect a gateway to a central office (CO) or private branch exchange (PBX).
+
+Foreign Exchange Station (FXS) Analog trunks that connect a gateway to plain old telephone service (POTS) device such as analog phones, fax machines, and legacy voice-mail systems."
+What is Dial-peer,"Dial-peer is a call leg pointing to a DN which is configuring in voice gateway (call Leg= property of the call eg: ip address, port etc)
+
+Two Types:
+
+1) Inbound dial peer (matches the incoming call)  
+2) Outbound dual-peer (matches the outbound call)"
+What is Cisco Jabber,"Cisco Jabber is a unified communication solution designed to facilitate the collaboration and communication needs of businesses. It can be deployed on Mac, Windows, iOS and Android devices.
+
+A Voice over Internet Protocol (VoIP) application, Jabber offers features such as multiline support, calendar integration and an integrated communications manager. Additionally, it also includes bots for automatic sending and receiving messages, chats and calls."
