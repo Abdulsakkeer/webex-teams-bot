@@ -28,20 +28,30 @@ fs.createReadStream('data.csv')
 bot.onCommand("hello", function (command) {
     message = command.args.join(' ').toLowerCase()
 
-    if (data[message] == undefined){
-        client.createMessage(command.message.roomId, "Sorry, I did not understand", { "markdown":true }, function(err, response) {
+    if (message == "") {
+        client.createMessage(command.message.roomId, "Hello, how can I help you?", { "markdown":true }, function(err, response) {
             if (err) {
                 console.log("WARNING: could not post Fallback message to room: " + command.message.roomId);
                 return;
             }
         });
-
     } else {
-        client.createMessage(command.message.roomId, data[message], { "markdown":true }, function(err, response) {
-            if (err) {
-                console.log("WARNING: could not post Fallback message to room: " + command.message.roomId);
-                return;
-            }
-        });
+
+        if (data[message] == undefined){
+            client.createMessage(command.message.roomId, "Sorry, I did not understand", { "markdown":true }, function(err, response) {
+                if (err) {
+                    console.log("WARNING: could not post Fallback message to room: " + command.message.roomId);
+                    return;
+                }
+            });
+
+        } else {
+            client.createMessage(command.message.roomId, data[message], { "markdown":true }, function(err, response) {
+                if (err) {
+                    console.log("WARNING: could not post Fallback message to room: " + command.message.roomId);
+                    return;
+                }
+            });
+        }
     }
 });
